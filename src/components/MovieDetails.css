@@ -1,0 +1,21 @@
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+.movierow{
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.movies{
+    width: 100%;
+    object-fit: contain;
+    margin-right: 20px;
+    transition: 460ms;
+    height: 300px;
+   
+}
+.movies:hover{
+    transform: scale(1.06);
+}

@@ -1,0 +1,19 @@
+.stars-container {
+    display: flex;
+    
+  }
+  button{
+  display:contents;
+  padding: 3px;
+  }
+  
+
+  
+  .red {
+    color: red;
+  }
+  
+  .white {
+    color: white;
+  }
+  

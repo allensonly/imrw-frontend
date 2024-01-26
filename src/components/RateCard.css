@@ -1,0 +1,11 @@
+@media (min-width: 600px) {
+    .ratecard {
+      width: 400px;
+    }
+  }
+
+  @media (max-width:300px) and (min-width:600px){
+    .ratecard {
+      width: 350px;
+    }
+  }  
