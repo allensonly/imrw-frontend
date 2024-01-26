@@ -28,8 +28,8 @@ function RateCard({ratecard,profilephoto}) {
          </div>
          <div >
           {ratecard.profile == ""?
-           <img className='w-75 me-0 p-1 ms-4 rounded-circle' style={{width:'200px' , height:'200px'}}  src="https://i.pinimg.com/736x/a9/62/ef/a962ef5ea8dfa25418c0a2b0057a64d4.jpg" alt="no image" />:
-           <img className='w-75 me-0 p-1 ms-4 rounded-circle' style={{width:'200px' , height:'200px'}}  src={`${baseUrl}/uploads/${ratecard.profile}`} alt="no image" />
+           <img className=' me-0 p-1  rounded-circle' style={{width:'200px' , height:'200px'}}  src="https://i.pinimg.com/736x/a9/62/ef/a962ef5ea8dfa25418c0a2b0057a64d4.jpg" alt="no image" />:
+           <img className=' me-0 p-1  rounded-circle' style={{width:'200px' , height:'200px'}}  src={`${baseUrl}/uploads/${ratecard.profile}`} alt="no image" />
           }
          </div>
             

@@ -4,8 +4,8 @@
     }
   }
 
-  @media (max-width:300px) and (min-width:600px){
+  @media (max-width:250px) and (min-width:600px){
     .ratecard {
-      width: 400px;
+      width: 350px;
     }
   }  
